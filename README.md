@@ -23,16 +23,16 @@ During this study, we will spend  10 minutes asking questions and the participan
 If you are interested in participating, please reply to this message or email claireliu123@berkeley.edu or mko357@berkeley.edu with any questions.
 
 ## Interview Guide
-1. How long have you had your dog? 
-..1. What is the most difficult part of taking care of a dog? 
-..1. If one responsibility (feeding, walking, going to the vet) could be automated, which one would you choose and why? *highest value
-How often do you do the following: *highest value
-Feed your dog
-Walk your dog
-Go to the vet
-Give your dog medication
-What was the training process like for your dog? 
-If you were to get more pets in the future, is there anything you would do differently?
+⋅⋅1. How long have you had your dog? 
+2. What is the most difficult part of taking care of a dog? 
+3. If one responsibility (feeding, walking, going to the vet) could be automated, which one would you choose and why? *highest value
+4. How often do you do the following: *highest value
+a. Feed your dog
+b. Walk your dog
+c. Go to the vet
+d. Give your dog medication
+5. What was the training process like for your dog? 
+6. If you were to get more pets in the future, is there anything you would do differently?
 
           
 
