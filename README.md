@@ -27,10 +27,10 @@ If you are interested in participating, please reply to this message or email cl
 2. What is the most difficult part of taking care of a dog? 
 3. If one responsibility (feeding, walking, going to the vet) could be automated, which one would you choose and why? *highest value
 4. How often do you do the following: *highest value
-a. Feed your dog
-b. Walk your dog
-c. Go to the vet
-d. Give your dog medication
+1. Feed your dog
+2. Walk your dog
+3. Go to the vet
+4. Give your dog medication
 5. What was the training process like for your dog? 
 6. If you were to get more pets in the future, is there anything you would do differently?
 
