@@ -8,10 +8,10 @@ The third main task the app will support is Training Advice. This will be suppor
 
 ## Interview
 Who to recruit:
-- Item 1 The target user group: Any dog owner who either owns a dog or whose family owns a dog. 
-- Item 2 How will we reach out to target users: We will send out recruiting messages through Slack groups. 
-- Item 3 How many people will you reach out to: 3
-- Item 4 Will you perform two 20-min interviews or three 10-min interviews? We will perform three 10-min interviews.
+- The target user group: Any dog owner who either owns a dog or whose family owns a dog. 
+- How will we reach out to target users: We will send out recruiting messages through Slack groups. 
+- How many people will you reach out to: 3
+- Will you perform two 20-min interviews or three 10-min interviews? We will perform three 10-min interviews.
 
 ## Recruiting Message
 Pat tracker design for dog owners
@@ -21,4 +21,16 @@ Hi Everyone! We are two undergraduate students taking CS160, User Interface Desi
 During this study, we will spend  10 minutes asking questions and the participants will have to give feedback about what is  your desired pet app and what features they would like to have the most. 
 
 If you are interested in participating, please reply to this message or email claireliu123@berkeley.edu or mko357@berkeley.edu with any questions.
+
+## Interview Guide
+Markup : 1. How long have you had your dog? 
+         2. What is the most difficult part of taking care of a dog? 
+         3. If one responsibility (feeding, walking, going to the vet) could be automated, which one would you choose and why? *highest value
+         4. How often do you do the following: *highest value
+            1. Feed your dog
+            2. Walk your dog
+            3.Go to the vet
+            4. Give your dog medication
+5. What was the training process like for your dog? 
+6. If you were to get more pets in the future, is there anything you would do differently?
 
