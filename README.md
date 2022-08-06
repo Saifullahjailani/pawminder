@@ -23,7 +23,7 @@ During this study, we will spend  10 minutes asking questions and the participan
 If you are interested in participating, please reply to this message or email claireliu123@berkeley.edu or mko357@berkeley.edu with any questions.
 
 ## Interview Guide
-⋅⋅1. How long have you had your dog? 
+1. How long have you had your dog? 
 2. What is the most difficult part of taking care of a dog? 
 3. If one responsibility (feeding, walking, going to the vet) could be automated, which one would you choose and why? *highest value
 4. How often do you do the following: *highest value
