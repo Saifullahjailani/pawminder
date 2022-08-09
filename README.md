@@ -1,5 +1,10 @@
 # pawminder
-## How To Run
+## How To Run simple 
++ clone the repository using `git clone git@github.com:Saifullahjailani/pawminder.git` or `git clone https://github.com/Saifullahjailani/pawminder.git`
++ run this script from the cloned directory  `cd client && npm install && npm run build && cd .. && npm install && node app.js`
+
+
+## How To Run Dtailed
 1. Go to the client directory and install the npm dependencies by calling `npm install`.
 2. Run `npm run build` in the client folder. 
 3. In the main directory install the npm dependencies by calling `npm install`.
