@@ -1,8 +1,12 @@
 # pawminder
 ## How To Run
 1. Go to the client directory and install the npm dependencies by calling `npm install`.
-2. Now in the main directory install the npm dependencies by calling `npm install`.
-3. Now launch the server by `node app.js` in the pawminder directory.
+2. Run `npm run build` in the client folder. 
+3. Now in the main directory install the npm dependencies by calling `npm install`.
+4. Now launch the server by `node app.js` in the pawminder directory.
+### Note:
+The app.js file in the pawminder directory is the server while App.js in the client folder is the app entry point. 
+
 
 ## How To Setup Development Environment
 1. Install the dependencies as mentioned above. 
