@@ -22,5 +22,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.add-btn {
+  background-color: transparent !important;
+  border: none;
 }

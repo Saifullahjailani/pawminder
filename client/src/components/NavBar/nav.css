@@ -15,8 +15,8 @@
   padding: 10px;
   gap: 10px;
   position: absolute;
+  top: 90vh;
   left: 0;
-  bottom: 0;
 }
 
 .nav > button {

@@ -8,14 +8,15 @@ const NavBar = () => {
     <nav className="nav">
       <button
         className="left"
-        onClick={() => {
-          navigate("/trainingVideo");
+        onClick={(e) => {
+          e.preventDefault();
+          navigate("//AskExpert");
         }}
       ></button>
       <button
         className="middle"
         onClick={() => {
-          navigate("/Dogs");
+          navigate("/home");
         }}
       ></button>
       <button
