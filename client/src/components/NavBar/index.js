@@ -10,7 +10,7 @@ const NavBar = () => {
         className="left"
         onClick={(e) => {
           e.preventDefault();
-          navigate("//AskExpert");
+          navigate("/askExperts");
         }}
       ></button>
       <button

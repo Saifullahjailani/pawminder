@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./login.css";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
@@ -6,12 +6,14 @@ import { useState } from "react";
 import HOST from "../../localhost";
 import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Login = ({ trigger }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+
   const go = useNavigate();
   function hunddleResponse(data) {
     if (data.validation) {
+      trigger();
       go("/home");
     } else {
       setWrong(false);

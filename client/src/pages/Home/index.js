@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import { AuthContext } from "../../UserContext";
 import HOST from "../../localhost";
 import NavBar from "../../components/NavBar";
 import PhotoCard from "../../components/PhotoCard";
@@ -18,6 +19,7 @@ const Home = () => {
   const [dogs, setDogs] = useState([]);
   const navigate = useNavigate();
   const [sePage, setSePage] = useState("");
+  const ctx = React.useContext(AuthContext);
 
   useEffect(() => {
     Fetch(getList, childs, setDogs);

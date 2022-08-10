@@ -8,7 +8,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 axios.defaults.withCredentials = true;
 
-const Signup = () => {
+const Signup = ({ trigger }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [confPassword, setConfPassword] = useState("");
@@ -18,6 +18,7 @@ const Signup = () => {
 
   async function hunddleResponse(data) {
     if (data.status == "successfully added user") {
+      trigger();
       navigator("/home");
     }
     setWarn(data.status);
@@ -25,8 +26,7 @@ const Signup = () => {
   async function createAccount({ username, password, confPassword, email }) {
     if (
       !(username || password || confPassword || email) ||
-      password != confPassword ||
-      username.length < 5
+      password != confPassword
     ) {
       console.log();
       return;

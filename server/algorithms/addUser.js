@@ -7,6 +7,7 @@ const { v4: uuidv4 } = require("uuid");
 function addUser(cred, permission, overwrite = false) {
   const file = path.join(USER_FOLDER, cred.username + ".json");
   let res = {};
+  console.log(file);
   if (!fs.existsSync(file)) {
     const data = JSON.stringify(cred);
     try {

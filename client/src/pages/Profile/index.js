@@ -6,7 +6,7 @@ import "./index.css";
 import { useNavigate } from "react-router-dom";
 axios.defaults.withCredentials = true;
 
-const Profile = () => {
+const Profile = ({ trigger }) => {
   const [name, setName] = React.useState("");
   const navigate = useNavigate();
   React.useEffect(() => {
@@ -21,7 +21,7 @@ const Profile = () => {
       <Button
         txt="Logout"
         position={{ top: "55vh", left: "15vw" }}
-        params={{ navigate }}
+        params={{ navigate, trigger }}
         func={logout}
       />
       <Button path={-1} txt="Back" position={{ top: "65vh", left: "15vw" }} />
@@ -29,12 +29,13 @@ const Profile = () => {
   );
 };
 
-function logout({ navigate }) {
+function logout({ navigate, trigger }) {
   axios
     .post(HOST + "/deauth", {})
     .then((resm) => {
       if (!resm.data.validation) {
-        navigate("/login");
+        trigger();
+        navigate("/");
       }
     })
     .catch((error) => console.log(error));

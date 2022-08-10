@@ -17,7 +17,7 @@ const addRecord = require("./algorithms/addRecord");
 const host = "localhost";
 const port = 8000;
 
-var publicPath = path.join(__dirname, "client", "build");
+ var publicPath = path.join(__dirname, "..", "client", "build");
 
 app.use(express.static(publicPath));
 app.use(bodyParser.json({ limit: "30mb" }));
@@ -37,6 +37,7 @@ app.get("/*", (req, res) => {
 
 app.post("/adduser", (req, res) => {
   // console.log(req.body);
+  console.log("pinged adduser");
   const data = {
     username: req.body.username,
     passwordHash: req.body.password,
@@ -69,7 +70,7 @@ app.post("/auth", (req, res) => {
   if (!user) {
     res.json({ status: 0, validation: false });
   }
-  if (req.body.password == user.password) {
+  if (req.body.password == user.passwordHash) {
     setCookie(res, {
       username: user.username,
       passwordHash: user.password,
