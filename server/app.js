@@ -22,13 +22,13 @@ const port = 8000;
 app.use(express.static(publicPath));
 app.use(bodyParser.json({ limit: "30mb" }));
 
-app.use(
-  cors({
-    origin: ["http://localhost:8000", "http://localhost:3000"],
-    methods: ["GET", "POST"],
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     origin: ["http://localhost:8000", "http://localhost:3000"],
+//     methods: ["GET", "POST"],
+//     credentials: true,
+//   })
+// );
 app.use(cookieParser());
 
 app.get("/*", (req, res) => {
