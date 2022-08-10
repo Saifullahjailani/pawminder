@@ -3,13 +3,12 @@
   grid-template-columns: 2fr 1fr;
   width: 90%;
   row-gap: 10%;
-  margin-bottom: 15%;
+  margin-bottom: 4vh;
   background: #f7f7f7;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   height: 15vh;
   border-radius: 4%;
-  padding: 4%;
-  box-sizing: border-box;
+  padding: 8%;
 }
 
 .left-aligh-rem {

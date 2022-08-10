@@ -1,6 +1,16 @@
 import React from "react";
 import "./index.css";
 import { useNavigate } from "react-router-dom";
+const activity = [
+  "Sleepig",
+  "Walking",
+  "Exercising",
+  "Wathing TV",
+  "Taking Shower",
+];
+function getRandomAct() {
+  return activity[Math.floor(Math.random() * activity.length)];
+}
 
 const PhotoCard = ({
   imageSrc,
@@ -54,6 +64,7 @@ const PhotoCard = ({
           <p>
             {breed} - {SEX}
           </p>
+          <p>{getRandomAct()}</p>
         </div>
       )}
     </div>
