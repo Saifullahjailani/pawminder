@@ -2,7 +2,7 @@
 ## How To Run
 1. Go to the client directory and install the npm dependencies by calling `npm install && npm run build`.
 2. Now in the server directory install the npm dependencies by calling `npm install && node app.js`.
-3. Brows this `http://localhost:8000` in your browser, go to inspect and select iphone 6/7/8 plus as your device.
+3. Browse this `http://localhost:8000` in your browser, go to inspect and select iphone 6/7/8 plus as your device.
 
 ## How To Setup Development Environment
 1. Install the dependencies as mentioned above. 
