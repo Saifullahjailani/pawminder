@@ -1,4 +1,10 @@
 # pawminder
+A single stop to keep track of multiple dogs’ health, activities, and training sessions.
+
+Please review `CS160 Group 13 Final Report.pdf` for detailed design process and choices. 
+
+Please review `Final Project · Accountability · CS 160 Summer 2022.pdf` for project brief. 
+
 ## How To Run
 1. Go to the client directory and install the npm dependencies by calling `npm install && npm run build`.
 2. Now in the server directory install the npm dependencies by calling `npm install && node app.js`.
